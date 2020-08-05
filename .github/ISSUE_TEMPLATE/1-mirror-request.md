@@ -16,3 +16,10 @@ labels: 'new-mirror'
 同步方法:
 
 镜像大小:
+
+<!-- 
+  与此同时，您也可以帮助我们完善镜像站生态。您可以根据自己使用镜像的情况，
+  将用户配置使用镜像的方法添加到 https://github.com/sjtug/portal/tree/master/content/post/mirror-help
+  将测试镜像是否工作的脚本添加到 https://github.com/sjtug/mirror-test-scripts
+  如果有现成的镜像脚本，可以添加到 https://github.com/sjtug/mirror-docker/tree/v2/lug/worker-script
+-->
