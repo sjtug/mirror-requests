@@ -17,6 +17,16 @@ labels: 'new-mirror'
 
 镜像大小:
 
+状态追踪:
+<!-- 这一部分内容由镜像源 maintainer 修改，请原样保留。-->
+- [ ] 同意同步
+- [ ] 同步脚本
+- [ ] 部署到镜像源
+- [ ] 首次同步成功
+- [ ] 测试脚本
+- [ ] 使用文档
+- [ ] 添加到官方源
+
 <!-- 
   与此同时，您也可以帮助我们完善镜像站生态。您可以根据自己使用镜像的情况，
   将用户配置使用镜像的方法添加到 https://github.com/sjtug/portal/tree/master/content/post/mirror-help
