@@ -45,8 +45,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 这个镜像源从未在 https://github.com/sjtug/mirror-requests/issues 讨论过，也没有在 https://mirror.sjtu.edu.cn 上线。
-      description: 请不要提交重复的请求。
+      label: 注意事项
       options:
-        - label: 我已确认
+        - label: 我已确认这个镜像源从未在 https://github.com/sjtug/mirror-requests/issues 讨论过，也没有在 https://mirror.sjtu.edu.cn 上线。
           required: true
