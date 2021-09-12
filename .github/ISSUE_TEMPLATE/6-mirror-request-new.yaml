@@ -9,7 +9,7 @@ body:
       value: |
         欢迎您向 SJTUG 软件源镜像服务提交新的镜像请求。请您填写这个表单，以帮助维护者更好地了解软件源相关信息。
   - type: input
-    id: name
+    id: name_of_software
     attributes:
       label: 软件源名称
       description: 软件源名称将成为该软件源在 SJTUG 镜像服务中的网址的一部分。
