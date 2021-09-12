@@ -4,6 +4,7 @@ title: "[Mirror Request]: "
 labels: [new-mirror]
 body:
   - type: markdown
+    id: introduction
     attributes:
       value: |
         欢迎您向 SJTUG 软件源镜像服务提交新的镜像请求。请您填写这个表单，以帮助维护者更好地了解软件源相关信息。
@@ -23,6 +24,7 @@ body:
     validations:
       required: false
   - type: markdown
+    id: optional_info
     attributes:
       value: |
         以下内容选填。填写下面的内容可以帮助镜像源维护者更好地决定是否可以镜像。
@@ -34,7 +36,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: upstream
+    id: sync_method
     attributes:
       label: 同步方法
       description: 通常为 rsync 地址、镜像工具、或上游推荐的镜像方法。
